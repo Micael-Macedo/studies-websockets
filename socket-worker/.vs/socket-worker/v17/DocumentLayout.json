@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gabriel.pontes\\Documents\\Docs\\studies-websocket\\socket-worker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA7CACA-B986-4D0D-AAB7-6CA52CE37AF5}|..\\biometric-client\\biometric-client.csproj|c:\\users\\gabriel.pontes\\documents\\docs\\studies-websocket\\biometric-client\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55A239E3-AF60-4379-B862-1919229B4369}|socket-worker.csproj|c:\\users\\gabriel.pontes\\documents\\docs\\studies-websocket\\socket-worker\\services\\workerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55A239E3-AF60-4379-B862-1919229B4369}|socket-worker.csproj|solutionrelative:services\\workerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA7CACA-B986-4D0D-AAB7-6CA52CE37AF5}|..\\biometric-client\\biometric-client.csproj|c:\\users\\gabriel.pontes\\documents\\docs\\studies-websocket\\biometric-client\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA7CACA-B986-4D0D-AAB7-6CA52CE37AF5}|..\\biometric-client\\biometric-client.csproj|c:\\users\\gabriel.pontes\\documents\\docs\\studies-websocket\\biometric-client\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA7CACA-B986-4D0D-AAB7-6CA52CE37AF5}|..\\biometric-client\\biometric-client.csproj|c:\\users\\gabriel.pontes\\documents\\docs\\studies-websocket\\biometric-client\\utils\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA7CACA-B986-4D0D-AAB7-6CA52CE37AF5}|..\\biometric-client\\biometric-client.csproj|c:\\users\\gabriel.pontes\\documents\\docs\\studies-websocket\\biometric-client\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55A239E3-AF60-4379-B862-1919229B4369}|socket-worker.csproj|c:\\users\\gabriel.pontes\\documents\\docs\\studies-websocket\\socket-worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55A239E3-AF60-4379-B862-1919229B4369}|socket-worker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 246,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WorkerService.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.pontes\\Documents\\Docs\\studies-websocket\\socket-worker\\Services\\WorkerService.cs",
+              "RelativeDocumentMoniker": "Services\\WorkerService.cs",
+              "ToolTip": "C:\\Users\\gabriel.pontes\\Documents\\Docs\\studies-websocket\\socket-worker\\Services\\WorkerService.cs",
+              "RelativeToolTip": "Services\\WorkerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:24:28.555Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.pontes\\Documents\\Docs\\studies-websocket\\biometric-client\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "..\\biometric-client\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\gabriel.pontes\\Documents\\Docs\\studies-websocket\\biometric-client\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "..\\biometric-client\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T20:18:35.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.pontes\\Documents\\Docs\\studies-websocket\\biometric-client\\Utils\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "..\\biometric-client\\Utils\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\gabriel.pontes\\Documents\\Docs\\studies-websocket\\biometric-client\\Utils\\RelayCommand.cs",
+              "RelativeToolTip": "..\\biometric-client\\Utils\\RelayCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T20:17:02.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.pontes\\Documents\\Docs\\studies-websocket\\biometric-client\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\biometric-client\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\gabriel.pontes\\Documents\\Docs\\studies-websocket\\biometric-client\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\biometric-client\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T20:17:00.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.pontes\\Documents\\Docs\\studies-websocket\\socket-worker\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\gabriel.pontes\\Documents\\Docs\\studies-websocket\\socket-worker\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:48:24.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.pontes\\Documents\\Docs\\studies-websocket\\biometric-client\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "..\\biometric-client\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\gabriel.pontes\\Documents\\Docs\\studies-websocket\\biometric-client\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "..\\biometric-client\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAAEYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:39:20.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\gabriel.pontes\\Documents\\Docs\\studies-websocket\\biometric-client\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "..\\biometric-client\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\gabriel.pontes\\Documents\\Docs\\studies-websocket\\biometric-client\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "..\\biometric-client\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-09T19:39:18.433Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

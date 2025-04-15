@@ -1,0 +1,11 @@
+<div class="content">
+  <button class="button-30" role="button" (click)="sendMessage()" *ngIf="!showDiv">
+    <img src="/assets/images/fingerprint.svg" height="150" width="150" alt="fingerprint" />
+  </button>
+
+  <div class="biometric-reader"  *ngIf="showDiv">
+    <span>Digital Coletada!</span>
+    <img class="finger-image" [src]="message.Image" alt="Aguardando a coleta biométrica ..." />
+    <span>{{ message.Text }}</span>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "iUSWS1AWIqM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gabriel.pontes\\Documents\\Docs\\studies-websocket\\biometric-client\\biometric-client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gabriel.pontes\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.2\\microsoft.win32.systemevents.9.0.2.nupkg.sha512",
+    "C:\\Users\\gabriel.pontes\\.nuget\\packages\\system.drawing.common\\9.0.2\\system.drawing.common.9.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
