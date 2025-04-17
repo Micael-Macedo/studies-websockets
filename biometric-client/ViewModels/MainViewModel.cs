@@ -41,11 +41,12 @@ namespace biometric_client.ViewModels
 
         public RelayCommand ScanCommand {  get; set; }
 
+        private string basePath = AppContext.BaseDirectory;
+
         public MainViewModel()
         {
             _client = new ClientWebSocket();
             ScanCommand = new RelayCommand(Scan);
-
             ConnectToWebSocket();
         }
 
@@ -69,7 +70,7 @@ namespace biometric_client.ViewModels
 
                 if (_client.State == WebSocketState.Open)
                 {
-                    var imagemBase64 =  await CompressedImageBase64Async(@"C:\Users\gabriel.pontes\Documents\Docs\studies-websocket\biometric-client\bin\Debug\net8.0-windows\Captura\15.png");
+                    var imagemBase64 =  await CompressedImageBase64Async($@"{basePath}\Captura\15.png");
                     string response = String.Concat("image:", imagemBase64);
                     await _client.SendAsync(new ArraySegment<byte>(Encoding.UTF8.GetBytes(response)), WebSocketMessageType.Text, true, CancellationToken.None);
                     Application.Current.Shutdown();

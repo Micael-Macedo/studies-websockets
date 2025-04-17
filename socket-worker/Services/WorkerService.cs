@@ -4,7 +4,6 @@ using System.Text;
 using System.Collections.Concurrent;
 using System.Net.Sockets;
 using System.Diagnostics;
-
 namespace socket_worker.Services
 {
     public class WorkerService : BackgroundService
@@ -14,10 +13,14 @@ namespace socket_worker.Services
         private WebSocket _webClient;
         private WebSocket _biometricClient;
 
+        private string relativePath = "biometric-client\\bin\\Debug\\net8.0-windows\\biometric-client.exe";
+        private string basePath = Directory.GetParent(AppContext.BaseDirectory)?.Parent?.Parent?.Parent?.Parent?.FullName;
+        private string fullPath;
 
         public WorkerService(ILogger<WorkerService> logger)
         {
             _logger = logger;
+            fullPath = Path.Combine(basePath, relativePath);
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -107,10 +110,9 @@ namespace socket_worker.Services
             }
         }
 
-
         private async void OpenBiometricClient()
         {
-            string path = @"C:\Users\gabriel.pontes\Documents\Docs\studies-websocket\biometric-client\bin\Debug\net8.0-windows\biometric-client.exe";
+            string path = $@"{this.fullPath}";
             ProcessStartInfo psi = new ProcessStartInfo(path)
             {
                 UseShellExecute = false
